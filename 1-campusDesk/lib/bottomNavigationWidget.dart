@@ -45,49 +45,49 @@ class _Navigator1State extends State<Navigator1> {
                 BottomNavigationBarItem(
                     //activeIcon: Icon(Icons.home, color: Colors.white),
                     icon: Icon(Icons.home_outlined, color: Colors.white),
-                    title: Text(
+                    label:
                       "Home",
-                      style: TextStyle(
-                          fontFamily: "Fira Sans", fontWeight: FontWeight.bold),
-                    )),
+                      //style: TextStyle(
+                  // fontFamily: "Fira Sans", fontWeight: FontWeight.bold),
+                    ),
                 BottomNavigationBarItem(
                     //activeIcon: Icon(Icons.calendar_today, color: Colors.white),
                     icon: Icon(
                       Icons.my_library_books_outlined,
                       color: Colors.white,
                     ),
-                    title: Text(
+                    label:
                       "notes",
-                      style: TextStyle(
-                          fontFamily: "Fira Sans", fontWeight: FontWeight.bold),
-                    )),
+                     // style: TextStyle(
+                  //                           fontFamily: "Fira Sans", fontWeight: FontWeight.bold),
+                    ),
                 BottomNavigationBarItem(
                     //activeIcon:
                     //Icon(Icons.add_box_rounded, color: Colors.white),
                     icon: Icon(Icons.add_box_outlined, color: Colors.white),
-                    title: Text(
+                    label:
                       "Add",
-                      style: TextStyle(
-                          fontFamily: "Fira Sans", fontWeight: FontWeight.bold),
-                    )),
+                      //style: TextStyle(
+                  //                           fontFamily: "Fira Sans", fontWeight: FontWeight.bold),
+                    ),
                 BottomNavigationBarItem(
                     //activeIcon: Icon(Icons.track_changes, color: Colors.white),
                     icon: Icon(Icons.notifications_none_outlined,
                         color: Colors.white),
-                    title: Text(
+                    label:
                       "Notifications",
-                      style: TextStyle(
-                          fontFamily: "Fira Sans", fontWeight: FontWeight.bold),
-                    )),
+                     // style: TextStyle(
+                  //                           fontFamily: "Fira Sans", fontWeight: FontWeight.bold),
+                    ),
                 BottomNavigationBarItem(
                     //activeIcon: Icon(Icons.account_circle, color: Colors.white),
                     icon: Icon(Icons.account_circle_outlined,
                         color: Colors.white),
-                    title: Text(
+                    label:
                       "Account",
-                      style: TextStyle(
-                          fontFamily: "Fira Sans", fontWeight: FontWeight.bold),
-                    ))
+                      //style: TextStyle(
+                  //                           fontFamily: "Fira Sans", fontWeight: FontWeight.bold),
+                    )
               ]),
         ));
   }

@@ -50,7 +50,7 @@ class _ProfileState extends State<Profile> {
                         ],
                       ),
                       Spacer(),
-                      ElevatedButton(
+                      TextButton(
                         onPressed: null,
                         child: Container(
                           height: 30,
