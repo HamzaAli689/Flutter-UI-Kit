@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class Notes extends StatefulWidget {
-  Notes({Key key}) : super(key: key);
 
   @override
   _NotesState createState() => _NotesState();

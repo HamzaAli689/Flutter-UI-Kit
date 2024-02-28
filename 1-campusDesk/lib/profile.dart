@@ -3,7 +3,6 @@ import 'package:url_launcher/url_launcher.dart';
 import 'marks.dart';
 
 class Profile extends StatefulWidget {
-  Profile({Key key}) : super(key: key);
 
   @override
   _ProfileState createState() => _ProfileState();
@@ -51,7 +50,7 @@ class _ProfileState extends State<Profile> {
                         ],
                       ),
                       Spacer(),
-                      FlatButton(
+                      ElevatedButton(
                         onPressed: null,
                         child: Container(
                           height: 30,

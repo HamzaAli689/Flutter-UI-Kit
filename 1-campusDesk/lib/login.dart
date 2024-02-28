@@ -1,8 +1,8 @@
-import 'package:CampusDesk/bottomNavigationWidget.dart';
 import 'package:flutter/material.dart';
 
+import 'bottomNavigationWidget.dart';
+
 class Login extends StatefulWidget {
-  Login({Key key}) : super(key: key);
 
   @override
   _LoginState createState() => _LoginState();
@@ -54,9 +54,9 @@ class _LoginState extends State<Login> {
                       contentPadding:
                           EdgeInsets.symmetric(vertical: 0, horizontal: 10),
                       enabledBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.grey[400])),
+                          borderSide: BorderSide(color: Colors.grey.shade400)),
                       border: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.grey[400])),
+                          borderSide: BorderSide(color: Colors.grey.shade400)),
                       focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
                           borderSide: BorderSide(color: Color(0xFFEC4E4E)))),
@@ -75,9 +75,9 @@ class _LoginState extends State<Login> {
                       contentPadding:
                           EdgeInsets.symmetric(vertical: 0, horizontal: 10),
                       enabledBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.grey[400])),
+                          borderSide: BorderSide(color: Colors.grey.shade400)),
                       border: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.grey[400])),
+                          borderSide: BorderSide(color: Colors.grey.shade400)),
                       focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
                           borderSide: BorderSide(color: Color(0xFFEC4E4E)))),

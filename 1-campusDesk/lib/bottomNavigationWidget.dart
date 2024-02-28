@@ -1,8 +1,6 @@
-import 'package:CampusDesk/profile.dart';
+import 'package:campus_desk/profile.dart';
 import 'package:flutter/material.dart';
-
 import 'dart:async';
-
 import 'add.dart';
 import 'home.dart';
 import 'notes.dart';

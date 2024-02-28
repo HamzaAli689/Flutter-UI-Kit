@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class Marks extends StatefulWidget {
-  Marks({Key key}) : super(key: key);
 
   @override
   _MarksState createState() => _MarksState();
