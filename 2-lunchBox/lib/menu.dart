@@ -4,7 +4,6 @@ import 'cart.dart';
 import 'home.dart'; 
 
 class menu extends StatefulWidget {
-  menu({Key key}) : super(key: key);
 
   @override
   _menuState createState() => _menuState();

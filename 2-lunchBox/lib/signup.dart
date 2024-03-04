@@ -1,12 +1,9 @@
 import 'dart:developer';
-
 import 'package:flutter/material.dart';
-
 import 'login.dart';
 
 class signup extends StatefulWidget {
   static const routename = '/signup';
-  signup({Key key}) : super(key: key);
 
   @override
   _signupState createState() => _signupState();
@@ -64,7 +61,7 @@ class _signupState extends State<signup> {
                         color: Colors.grey,
                       ),
                       focusedBorder: UnderlineInputBorder(
-                          borderSide: BorderSide(color: Colors.indigo[200]))),
+                          borderSide: BorderSide(color: Colors.indigo.shade200))),
                 ),
                 SizedBox(height: 20.0),
                 TextField(
@@ -77,7 +74,7 @@ class _signupState extends State<signup> {
                         color: Colors.grey,
                       ),
                       focusedBorder: UnderlineInputBorder(
-                          borderSide: BorderSide(color: Colors.indigo[200]))),
+                          borderSide: BorderSide(color: Colors.indigo.shade200))),
                 ),
                 SizedBox(height: 20.0), //to give some space betwen the inputs
                 TextField(
@@ -90,7 +87,7 @@ class _signupState extends State<signup> {
                         color: Colors.grey,
                       ),
                       focusedBorder: UnderlineInputBorder(
-                          borderSide: BorderSide(color: Colors.indigo[200]))),
+                          borderSide: BorderSide(color: Colors.indigo.shade200))),
                   obscureText: true, //to make it as a password
                 ),
 

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:foodzo/menu.dart';
-import 'package:foodzo/weeklyfood.dart';
+import 'package:lunch_box/weeklyfood.dart';
+
+import 'menu.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -9,7 +10,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage>
     with SingleTickerProviderStateMixin {
-  TabController tabController;
+  late TabController tabController;
   @override
   void initState() {
     super.initState();
@@ -33,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage>
               IconButton(
                 icon: Icon(Icons.menu),
                 color: Colors.grey,
-                onPressed: () => _scaffoldKey.currentState.openDrawer(),
+                onPressed: () => _scaffoldKey.currentState?.openDrawer(),
               ),
 
               //SEARCH BAR

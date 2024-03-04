@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:foodzo/home.dart';
+
+import 'home.dart';
 
 class login extends StatefulWidget {
   static const routename = '/login';
-  login({Key key}) : super(key: key);
 
   @override
   _loginState createState() => _loginState();
@@ -64,7 +64,7 @@ class _loginState extends State<login> {
                         color: Colors.grey,
                       ),
                       focusedBorder: UnderlineInputBorder(
-                          borderSide: BorderSide(color: Colors.indigo[200]))),
+                          borderSide: BorderSide(color: Colors.indigo.shade200))),
                 ),
                 SizedBox(height: 20.0),
                 TextField(

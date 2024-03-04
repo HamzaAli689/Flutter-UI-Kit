@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodzo/menu.dart';
-import 'package:foodzo/splash.dart';
-
-import 'home.dart';
+import 'package:lunch_box/splash.dart';
 
 void main() => runApp(MyApp());
 

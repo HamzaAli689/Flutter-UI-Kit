@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:foodzo/home.dart';
+
 
 class cart extends StatefulWidget {
-  cart({Key key, this.tag, this.foodName, this.foodPrice}) : super(key: key);
+  cart({ this.tag, this.foodName, this.foodPrice}) ;
 
   final tag;
   final foodName;
@@ -176,7 +176,7 @@ class _cartState extends State<cart> {
                        color: Colors.grey,
                      ),
                      focusedBorder: UnderlineInputBorder( 
-                       borderSide: BorderSide(color: Colors.indigo[200])
+                       borderSide: BorderSide(color: Colors.indigo.shade200)
                      )
                    ),
                  ), 
@@ -196,7 +196,7 @@ class _cartState extends State<cart> {
                        color: Colors.grey,
                      ),
                      focusedBorder: UnderlineInputBorder( 
-                       borderSide: BorderSide(color: Colors.indigo[200])
+                       borderSide: BorderSide(color: Colors.indigo.shade200)
                      )
                    ),
                  ), 
@@ -216,7 +216,7 @@ class _cartState extends State<cart> {
                        color: Colors.grey,
                      ),
                      focusedBorder: UnderlineInputBorder( 
-                       borderSide: BorderSide(color: Colors.indigo[200])
+                       borderSide: BorderSide(color: Colors.indigo.shade200)
                      )
                    ),
                  ), 

@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-
-import 'package:foodzo/home.dart';
-import 'package:foodzo/login.dart';
-import 'package:foodzo/menu.dart';
-import 'package:foodzo/signup.dart';
+import 'package:lunch_box/signup.dart';
 
 
 class splashscreen extends StatefulWidget {
-  splashscreen({Key key}) : super(key: key);
 
   @override
   _splashscreen createState() => _splashscreen();
@@ -130,7 +125,7 @@ class getClipper extends CustomClipper<Path> {
 }
 
   @override
-  Widget build(BuildContext context) {
+  Widget? build(BuildContext context) {
     // TODO: implement build
     return null;
   }

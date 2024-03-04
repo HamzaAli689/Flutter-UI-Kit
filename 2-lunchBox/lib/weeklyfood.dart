@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class weekfood extends StatefulWidget {
-  weekfood({Key key}) : super(key: key);
 
   @override
   _weekfoodState createState() => _weekfoodState();
