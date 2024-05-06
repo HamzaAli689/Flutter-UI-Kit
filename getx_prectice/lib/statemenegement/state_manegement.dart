@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'movie.dart';
 
-import 'getx_controller.dart';
+class MyApp extends StatelessWidget {
+  var movie = Movie(name: 'Wanted', ticket: 100).obs;
+  // var count = 0.obs;
+  // final count = Rx<int>0;2
+  // final count = RxInt(0);
 
-void main() {
-  runApp(HomeView());
-}
-
-class HomeView extends StatelessWidget {
-var mycontroller = Get.put(MyController());
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
@@ -23,14 +22,19 @@ var mycontroller = Get.put(MyController());
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Obx(
-                () => Text(
-                  "${mycontroller.count} ",
+                    () => Text(
+                  "${movie.value.name}",
+                  // "${movie.name}",
                   style: TextStyle(fontSize: 18),
                 ),
               ),
               ElevatedButton(
                   onPressed: () {
-                    mycontroller.incrementcounnter();
+                    // movie.name.value = "Hamza";
+                    movie.value.name = "Hamza Ali";
+                    movie.refresh();
+                    print(movie.value.name);
+
                   },
                   child: Text("Change"))
             ],
